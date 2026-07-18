@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Puchhi ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- LOADER -->
+
+    <div id="loader">
+
+        <div class="loader-content">
+
+            <div class="loader-heart">❤️</div>
+
+            <h1>Project Aurora</h1>
+
+            <p>Preparing something special...</p>
+
+        </div>
+
+    </div>
+
+    <!-- BACKGROUND -->
+
+    <div class="background-glow glow-one"></div>
+
+    <div class="background-glow glow-two"></div>
+
+    <div class="sparkles"></div>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <div class="cake">🎂</div>
+
+            <p class="date">
+                SEPTEMBER 9
+            </p>
+
+            <h1>
+                Happy Birthday
+            </h1>
+
+            <h2>
+                Puchhi <span>❤️</span>
+            </h2>
+
+            <p class="hero-text">
+
+                Today belongs to someone truly special.
+
+                <br><br>
+
+                Since I couldn't celebrate beside you today...
+
+                <br>
+
+                I brought the celebration
+
+                <br>
+
+                to your screen.
+
+            </p>
+
+            <button id="celebrateButton">
+
+                🎁 Begin Celebration
+
+            </button>
+
+        </div>
+
+        <div class="scroll-indicator">
+
+            <p>Scroll</p>
+
+            <div class="mouse">
+
+                <div class="wheel"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- GIFT ROOM -->
+
+    <section id="nextSection" class="gift-room">
+
+<h2 class="gift-title">
+    Choose Your First Birthday Surprise 🎁
+</h2>
+
+<div class="journey-box">
+
+    <h3>🎂 Birthday Journey</h3>
+
+    <div class="progress-bar">
+
+        <div class="progress-fill" id="progressFill"></div>
+
+    </div>
+
+    <p>
+
+        <span id="giftCount">0</span> / 6 Gifts Opened ❤️
+
+    </p>
+
+</div>
+
+        <p class="gift-subtitle">
+
+            Every gift hides something made especially for you ❤️
+
+        </p>
+
+        <div class="gift-grid">
+
+            <div class="gift-card" id="reportCard">
+
+                <div class="gift-icon">📊</div>
+
+                <h3>Birthday Report</h3>
+
+                <p>Tap to Open</p>
+
+            </div>
+
+<div class="gift-card" id="jackCard">
+
+    <div class="gift-icon">🐶</div>
+
+    <h3>Jack's Corner</h3>
+
+    <p>Tap to Open</p>
+
+</div>
+
+<div class="gift-card" id="statsCard">
+
+    <div class="gift-icon">😂</div>
+
+    <h3>Puchhi Statistics</h3>
+
+    <p>Tap to Open</p>
+
+</div>
+
+<div class="gift-card" id="memoryCard">
+
+    <div class="gift-icon">📸</div>
+
+    <h3>Memory Lane</h3>
+
+    <p>Tap to Open</p>
+
+</div>
+
+<div class="gift-card" id="reasonsCard">
+
+    <div class="gift-icon">✨</div>
+
+    <h3>100 Reasons</h3>
+
+    <p>Tap to Open</p>
+
+</div>
+
+<div class="gift-card locked-gift" id="letterCard">
+
+
+    <div class="gift-icon">💌</div>
+
+    <h3>Open Last</h3>
+
+    <p id="letterStatus">
+
+        🔒 Locked ❤️
+
+    </p>
+
+</div>
+
+        </div>
+
+    </section>
+
+    <!-- BIRTHDAY REPORT MODAL -->
+
+    <div class="modal" id="reportModal">
+
+        <div class="modal-content">
+
+            <span class="close">&times;</span>
+
+            <h2>📊 Birthday Report</h2>
+
+            <div class="report-grid">
+
+                <div class="report-item">
+
+                    <h4>👑 Name</h4>
+
+                    <p>Puchhi</p>
+
+                </div>
+
+                <div class="report-item">
+
+                    <h4>🎂 Status</h4>
+
+                    <p>Official Birthday Queen</p>
+
+                </div>
+
+                <div class="report-item">
+
+                    <h4>🍫 Chocolate Level</h4>
+
+                    <p>100%</p>
+
+                </div>
+
+                <div class="report-item">
+
+                    <h4>🐶 Jack's Favorite Human</h4>
+
+                    <p>Obviously You ❤️</p>
+
+                </div>
+
+                <div class="report-item">
+
+                    <h4>😂 Roasts Delivered</h4>
+
+                    <p>Unlimited</p>
+
+                </div>
+
+                <div class="report-item">
+
+                    <h4>✨ Happiness Today</h4>
+
+                    <p>∞ Infinite</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JACK MODAL -->
+
+    <div class="modal" id="jackModal">
+
+        <div class="modal-content">
+
+            <span class="close-jack">&times;</span>
+
+            <h2>🐶 Jack's Corner</h2>
+
+            <div class="jack-message">
+
+                <h3>Woof! 🐾</h3>
+
+                <p>
+
+                    Happy Birthday Mumma ❤️
+
+                    <br><br>
+
+                    Thank you for all the treats,
+                    cuddles and love.
+
+                    <br><br>
+
+                    Today I hope you get...
+
+                    <br>
+
+                    🍫 Extra Chocolates
+
+                    <br>
+
+                    🎂 Extra Cake
+
+                    <br>
+
+                    ❤️ Extra Smiles
+
+                    <br><br>
+
+                    Love,
+
+                    <br>
+
+                    <strong>Jackuu Babyyy 🐶</strong>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+<!-- =========================
+     100 REASONS MODAL
+========================= -->
+
+<div class="modal" id="reasonsModal">
+
+    <div class="modal-content">
+
+        <span class="close-reasons">&times;</span>
+
+        <h2>✨ 100 Reasons</h2>
+
+        <div class="reason-box">
+
+            <p id="reasonText">
+
+                Because somehow you make ordinary days feel special.
+
+            </p>
+
+            <button id="nextReason">
+
+                ❤️ Another One
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ===========================
+     MEMORY LANE
+=========================== -->
+
+<div class="modal" id="memoryModal">
+
+    <div class="modal-content">
+
+        <span class="close-memory">&times;</span>
+
+        <h2>📸 Some Sweet Moments</h2>
+
+        <p style="margin-bottom:25px;color:#777;">
+            Click Next to relive a few little memories ❤️
+        </p>
+
+        <div class="polaroid">
+
+            <img id="memoryImage"
+                 src="photo1.jpeg"
+                 alt="Memory">
+
+            <h3 id="memoryCaption">
+
+                Celebrating You 🎉
+
+            </h3>
+
+        </div>
+
+<div class="memory-progress">
+
+<span class="dot active"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+<span class="dot"></span>
+
+</div>
+
+<button id="nextMemory">
+
+    ➜ Next Memory
+
+</button>
+
+    </div>
+
+</div>
+<!-- ==========================
+     PUCHHI STATISTICS
+=========================== -->
+
+<div class="modal" id="statsModal">
+
+    <div class="modal-content">
+
+        <span class="close-stats">&times;</span>
+
+        <h2>😂 Puchhi Statistics</h2>
+
+        <p style="margin-bottom:30px;color:#777;">
+
+            Scientific research says... you're amazing ❤️
+
+        </p>
+
+        <div class="stats-list">
+
+            <div class="stat">
+
+                <span>🍫 Chocolate Addiction</span>
+
+                <div class="bar">
+
+                    <div class="fill" data-width="100%"></div>
+
+                </div>
+
+                <small>100%</small>
+
+            </div>
+
+            <div class="stat">
+
+                <span>🐶 Jack's Favourite Human</span>
+
+                <div class="bar">
+
+                    <div class="fill" data-width="100%"></div>
+
+                </div>
+
+                <small>100%</small>
+
+            </div>
+
+            <div class="stat">
+
+                <span>✈️ Travel Energy</span>
+
+                <div class="bar">
+
+                    <div class="fill" data-width="94%"></div>
+
+                </div>
+
+                <small>94%</small>
+
+            </div>
+
+            <div class="stat">
+
+                <span>😂 Chaos Level</span>
+
+                <div class="bar">
+
+                    <div class="fill" data-width="97%"></div>
+
+                </div>
+
+                <small>97%</small>
+
+            </div>
+
+            <div class="stat">
+
+                <span>👑 Birthday Queen Energy</span>
+
+                <div class="bar">
+
+                    <div class="fill" data-width="100%"></div>
+
+                </div>
+
+                <small>∞</small>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ===========================
+     FINAL LETTER
+=========================== -->
+
+<div class="modal" id="letterModal">
+
+    <div class="modal-content letter-content">
+
+        <span class="close-letter">&times;</span>
+
+        <div class="envelope-area">
+
+            <div class="envelope" id="envelope">
+
+                💌
+
+            </div>
+
+            <p class="tap-text">
+
+                Tap the envelope
+
+            </p>
+
+        </div>
+
+        <div class="letter-paper" id="letterPaper">
+
+            <h2>
+
+                To My Puchhi ❤️
+
+            </h2>
+
+            <div id="typedLetter">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!-- ===================================
+     CINEMATIC ENDING
+=================================== -->
+
+<section id="finalScene" class="final-scene">
+
+    <div class="aurora-bg"></div>
+
+    <div class="floating-hearts"></div>
+
+    <div class="final-content">
+
+        <p class="final-line">
+
+            No matter where life takes us...
+
+        </p>
+
+        <p class="final-line">
+
+            No matter how many birthdays
+            we celebrate apart...
+
+        </p>
+
+        <h1>
+
+            You'll always be
+
+        </h1>
+
+        <h2>
+
+            my favorite person ❤️
+
+        </h2>
+
+        <div class="birthday-finish">
+
+            <h1>Happy Birthday</h1>
+
+            <h2>Puchhi ❤️</h2>
+
+            <p>
+
+                With all my love,
+
+                <br>
+
+               — Alish
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
